@@ -29,17 +29,18 @@ and add:
 		}
 ```
 to build.gradle 
+
 add:
 ```
-			dependencies {
-			implementation (name: 'hlibs-release', ext: 'aar')
-			ext.toolversion = "28.0.0"
-		    implementation "com.android.support:appcompat-v7:$toolversion"
-		    implementation "com.android.support:support-v4:$toolversion"
-		    implementation "com.android.support:design:$toolversion"
-		    implementation "com.android.support:cardview-v7:$toolversion"
-		    implementation "com.android.support:recyclerview-v7:$toolversion"
-		    implementation "com.android.support:preference-v7:$toolversion"
+		dependencies {
+		implementation (name: 'hlibs-release', ext: 'aar')
+		ext.toolversion = "28.0.0"
+		implementation "com.android.support:appcompat-v7:$toolversion"
+		implementation "com.android.support:support-v4:$toolversion"
+		implementation "com.android.support:design:$toolversion"
+		implementation "com.android.support:cardview-v7:$toolversion"
+		implementation "com.android.support:recyclerview-v7:$toolversion"
+		implementation "com.android.support:preference-v7:$toolversion"
 			....
 ```
 to dependencies
