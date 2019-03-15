@@ -1,13 +1,13 @@
 #### HLIBS FOR ANDROID ####
 
-	Clone project into: /app/libs (detect the new update via gitsync)
+Clone project into: /app/libs (detect the new update via gitsync)
 			
 ```
 		flatDir {
                    dirs 'libs/hlibs'
                 }
 ```
-        and:
+and add:
 ```
         buildscript {
 		    repositories {
@@ -28,9 +28,8 @@
 		    }
 		}
 ```
-		to build.gradle 
-
-		add:
+to build.gradle 
+add:
 ```
 			dependencies {
 			implementation (name: 'hlibs-release', ext: 'aar')
@@ -43,4 +42,4 @@
 		    implementation "com.android.support:preference-v7:$toolversion"
 			....
 ```
-			to dependencies
+to dependencies
