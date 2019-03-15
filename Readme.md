@@ -1,13 +1,8 @@
 #### HLIBS FOR ANDROID ####
 
 Clone project into: /app/libs (detect the new update via gitsync)
-			
-```
-		flatDir {
-                   dirs 'libs/hlibs'
-                }
-```
-and add:
+
+Add gradle			
 ```
         buildscript {
 		    repositories {
@@ -27,6 +22,10 @@ and add:
 		        google()
 		    }
 		}
+		flatDir {
+        		dirs 'libs/hlibs'
+        }
+
 ```
 to build.gradle 
 
