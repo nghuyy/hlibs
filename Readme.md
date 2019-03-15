@@ -2,13 +2,13 @@
 
 	Clone project into: /app/libs (detect the new update via gitsync)
 			
-		```
+```
 		flatDir {
                    dirs 'libs/hlibs'
                 }
-		```
+```
         and:
-        ```
+```
         buildscript {
 		    repositories {
 		        jcenter()
@@ -27,11 +27,11 @@
 		        google()
 		    }
 		}
-		```
+```
 		to build.gradle 
 
 		add:
-		```
+```
 			dependencies {
 			implementation (name: 'hlibs-release', ext: 'aar')
 			ext.toolversion = "28.0.0"
@@ -42,5 +42,5 @@
 		    implementation "com.android.support:recyclerview-v7:$toolversion"
 		    implementation "com.android.support:preference-v7:$toolversion"
 			....
-		```
+```
 			to dependencies
