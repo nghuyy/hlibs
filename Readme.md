@@ -1,45 +1,16 @@
 #### HLIBS FOR ANDROID ####
 
-Clone project into: /app/libs (detect the new update via gitsync)
+Clone project by:
+git submodule add https://github.com/nghuyy/hlibs.git
 
-Add gradle			
++ Old version 1.0-old is discontinue, you can checkout with tag: 1.0-old,
++ From v1.1.55 we switch to Kotlin language 
+
+add gradle here:
 ```
-        buildscript {
-		    repositories {
-		        jcenter()
-		        mavenCentral()
-		        google()
-		    }
-		    dependencies {
-		        classpath 'com.android.tools.build:gradle:3.3.2'
-		    }
-		}
-
-		allprojects {
-		    repositories {
-		        jcenter()
-		        maven {url "https://jitpack.io"}
-		        google()
-		    }
-		}
-		flatDir {
-        		dirs 'libs/hlibs'
-        }
-
-```
-to build.gradle 
-
-add:
-```
-		dependencies {
-		implementation (name: 'hlibs-release', ext: 'aar')
-		ext.toolversion = "28.0.0"
-		implementation "com.android.support:appcompat-v7:$toolversion"
-		implementation "com.android.support:support-v4:$toolversion"
-		implementation "com.android.support:design:$toolversion"
-		implementation "com.android.support:cardview-v7:$toolversion"
-		implementation "com.android.support:recyclerview-v7:$toolversion"
-		implementation "com.android.support:preference-v7:$toolversion"
+		dependencies { 
+		
+		implementation fileTree(include: [ '*.aar'], dir: '../hlibs/hlibs')
 			....
 ```
 to dependencies
