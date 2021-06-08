@@ -11,7 +11,7 @@ add gradle here:
 
 ```gradle
 		dependencies { 
-		implementation fileTree(include: [ '*.aar'], dir: '../hlibs/hlibs')
+		implementation fileTree(include: [ '*.aar'], dir: '../hlibs/dist')
 			....
 ```
 to dependencies
