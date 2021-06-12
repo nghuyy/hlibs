@@ -1,7 +1,7 @@
 #### HLIBS FOR ANDROID ####
 
-![Build Status](https://ci.vnapps.com/buildStatus/icon?job=hlibs&subject=Build:${buildNumber}(${startTime}))
-![Build Status](https://ci-backup.vnapps.com/buildStatus/icon?job=hlibs&subject=Backup:${duration}(${startTime}))
+![Build Status](https://ci.vnapps.com/buildStatus/icon?job=hlibs&subject=Release&status=1.1.${buildNumber}(${startTime}))
+![Build Status](https://ci-backup.vnapps.com/buildStatus/icon?job=hlibs&subject=Backup&status=${duration}(${startTime}))
 
 Clone project by:
 ```bash
