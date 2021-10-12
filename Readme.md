@@ -52,7 +52,7 @@ Proguard:
 
 ```
 
-Some permission on new Android to check application feature:
+Some permission on new Android to check application feature and ACRA Debug:
 ```
     <!-- android 11 -->
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
