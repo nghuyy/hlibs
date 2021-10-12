@@ -51,3 +51,9 @@ Proguard:
 -dontwarn org.apache.harmony.xnet.provider.jsse.OpenSSLSocketImpl
 
 ```
+
+Some permission on new Android to check application feature:
+```
+    <!-- android 11 -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+```
