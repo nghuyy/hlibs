@@ -20,6 +20,7 @@ add gradle here:
 to dependencies
 
 Net class require TLSv1.3. We need include Google Conscrypt Library:
+
 ```
 implementation 'org.conscrypt:conscrypt-android:2.5.1'
 
@@ -29,6 +30,7 @@ static
  }
 ```
 
+Proguard:
 ```proguard
 -keep class huynguyen.hlibs.** { *; }
 -keep class org.conscrypt.** { *; }
