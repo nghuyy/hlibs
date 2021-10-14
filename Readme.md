@@ -12,8 +12,15 @@ git submodule add https://github.com/nghuyy/hlibs.git
 add gradle here:
 
 ```gradle
+		 ext.kotlin_version = '1.5.10'
+    		dependencies {
+			classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+			....
+    			
 		dependencies { 
-		implementation fileTree(include: [ '*.aar'], dir: '../hlibs')
+			implementation fileTree(include: [ '*.aar'], dir: '../hlibs')
+			implementation "androidx.core:core-ktx:1.6.0"
+			implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 			....
 ```
 to dependencies
