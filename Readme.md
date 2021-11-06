@@ -64,8 +64,7 @@ Some permission on new Android to check application feature and ACRA Debug:
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
 ```
 
-
+Some require:
 ```
- Kotlin is new, but not good way to include Android project. Too more libs and more bugs. Not eazy to view code like java.
- Today, im going remove Kotlin from my libs. Bye!
+ implementation "androidx.preference:preference:1.1.1"
 ```
