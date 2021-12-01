@@ -60,5 +60,8 @@ Some permission on new Android to check application feature and ACRA Debug:
 
 Some require:
 ```
+ //app preference
  implementation "androidx.preference:preference:1.1.1"
+ // app compat
+ implementation 'androidx.appcompat:appcompat:1.4.0'
 ```
