@@ -1,6 +1,6 @@
 #### HLIBS FOR ANDROID ####
 
-From 1.1.9xx version We using Gradle 8 and SDK 34
+From 1.1.9xx version We using Gradle 8 + SDK 34 + JDK 17
 
 Clone project by:
 ```bash
@@ -8,6 +8,7 @@ git submodule add https://github.com/nghuyy/hlibs.git
 ```
 + Old version 1.0-old is discontinue, you can checkout with tag: 1.0-old,
 + From v1.1.55 we switch to Kotlin language 
++ From v1.2.930 we using gradle 8 and JDK 17
 
 add gradle here:
 
