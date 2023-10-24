@@ -1,6 +1,6 @@
 #### HLIBS FOR ANDROID ####
 
-
+From 1.1.9xx version We using Gradle 8 and SDK 34
 
 Clone project by:
 ```bash
